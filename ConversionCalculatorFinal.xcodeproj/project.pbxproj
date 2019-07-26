@@ -10,8 +10,6 @@
 		4986D38222EB0AD600C8BCA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986D38122EB0AD600C8BCA5 /* AppDelegate.swift */; };
 		4986D38922EB0AD700C8BCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4986D38822EB0AD700C8BCA5 /* Assets.xcassets */; };
 		4986D38C22EB0AD700C8BCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4986D38A22EB0AD700C8BCA5 /* LaunchScreen.storyboard */; };
-		4986D39722EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986D39622EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.swift */; };
-		4986D3A222EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986D3A122EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.swift */; };
 		4986D3B022EB0B4E00C8BCA5 /* ConversionCalculatorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986D3AF22EB0B4E00C8BCA5 /* ConversionCalculatorUIViewController.swift */; };
 		4986D3B322EB0B6D00C8BCA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4986D3B122EB0B6D00C8BCA5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,11 +38,7 @@
 		4986D38B22EB0AD700C8BCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4986D38D22EB0AD700C8BCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4986D39222EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4986D39622EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorFinalTests.swift; sourceTree = "<group>"; };
-		4986D39822EB0AD700C8BCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4986D39D22EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4986D3A122EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorFinalUITests.swift; sourceTree = "<group>"; };
-		4986D3A322EB0AD700C8BCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4986D3AF22EB0B4E00C8BCA5 /* ConversionCalculatorUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionCalculatorUIViewController.swift; path = ../../ConversionCalculatorUI/ConversionCalculatorUI/ConversionCalculatorUIViewController.swift; sourceTree = "<group>"; };
 		4986D3B222EB0B6D00C8BCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../ConversionCalculatorUI/ConversionCalculatorUI/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4986D38022EB0AD600C8BCA5 /* ConversionCalculatorFinal */,
-				4986D39522EB0AD700C8BCA5 /* ConversionCalculatorFinalTests */,
-				4986D3A022EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests */,
 				4986D37F22EB0AD600C8BCA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				4986D38D22EB0AD700C8BCA5 /* Info.plist */,
 			);
 			path = ConversionCalculatorFinal;
-			sourceTree = "<group>";
-		};
-		4986D39522EB0AD700C8BCA5 /* ConversionCalculatorFinalTests */ = {
-			isa = PBXGroup;
-			children = (
-				4986D39622EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.swift */,
-				4986D39822EB0AD700C8BCA5 /* Info.plist */,
-			);
-			path = ConversionCalculatorFinalTests;
-			sourceTree = "<group>";
-		};
-		4986D3A022EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4986D3A122EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.swift */,
-				4986D3A322EB0AD700C8BCA5 /* Info.plist */,
-			);
-			path = ConversionCalculatorFinalUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4986D39722EB0AD700C8BCA5 /* ConversionCalculatorFinalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4986D3A222EB0AD700C8BCA5 /* ConversionCalculatorFinalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
